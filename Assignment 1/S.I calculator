@@ -1,0 +1,18 @@
+
+import java.util.*;
+
+public class karan {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the amount: ");
+        int p = sc.nextInt();
+        System.out.print("Enter the rate: ");
+        int n = sc.nextInt();
+        System.out.print("Enter the time period in years: ");
+        int r = sc.nextInt();
+        int ans = 0;
+        ans = (p * n * r) / 100;
+        System.out.println(ans);
+
+    }
+}
