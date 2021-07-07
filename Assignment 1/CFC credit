@@ -1,0 +1,19 @@
+
+import java.util.*;
+
+public class karan {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a credit: ");
+        int n = sc.nextInt();
+        if (n < 4500) {
+            System.out.println("Rising star");
+        } else if (4500 <= n || n < 7500) {
+            System.out.println("Gega leader");
+        } else if (6000 <= n || n < 6000) {
+            System.out.println("Mega leader");
+        } else {
+            System.out.println("Tera leader");
+        }
+    }
+}
