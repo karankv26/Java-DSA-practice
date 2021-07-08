@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class karan {
+
+    public static void search(int arr[]) {
+
+        int ans = -1;
+        int element = 50;
+        for (int ele : arr) {
+            if (ele == element) {
+                ans = 1;
+                System.out.println("element found");
+                break;
+            }
+        }
+        if (ans == -1) {
+            System.out.println("Element not found");
+
+        }
+    }
+
+    public static void main(String args[]) {
+        int arr[] = { 2, 3, 4, 10, 40 };
+        search(arr);
+
+    }
+}
