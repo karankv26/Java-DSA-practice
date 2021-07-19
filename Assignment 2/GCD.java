@@ -13,6 +13,6 @@ public class karan {
                 gcd = i;
         }
       
-        System.out.printf("LCM of %d and %d is %d\n", n1, n2, Lcm);
+        System.out.printf("GCD of %d and %d is %d\n", n1, n2, gcd);
     }
 }
