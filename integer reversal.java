@@ -6,13 +6,13 @@ public class Main
 	    Scanner input = new Scanner(System.in);
 	    System.out.print("Enter the number- ");  
 	    int n= input.nextInt();  
-		int novo = 0, houtan =0;
+		int new = 0, rem =0;
 		while(n != 0){
-		    houtan = n % 10;
-		    novo = houtan + novo*10;
+		    rem = n % 10;
+		    new = rem + new*10;
 		    n = n/10;
 		}
 		
-		System.out.println(novo);
+		System.out.println(new);
 	}
 }
