@@ -1,9 +1,9 @@
 
-package cfcAssignment2;
+
 
 import java.util.*;
 
-public class Q11 {
+public class karan {
 
     public static int [] inputArray(){
         Scanner sc =new Scanner(System.in);
